@@ -8,8 +8,8 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 from telegram.constants import ParseMode, ChatAction
 
 # ── Configuration ───────────────────────────────────────────────────────────
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
-OWNER_ID = int(os.environ.get("OWNER_ID", "123456789")) # Your Telegram User ID
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "9128049230:AAGsqfHk-rGIdE_GYRdc7taOpRUUGcmcv-c")
+OWNER_ID = int(os.environ.get("OWNER_ID", "8872316752")) # Your Telegram User ID
 
 def split_text(text: str, limit: int = 4000) -> list[str]:
     """Split long output into chunks that fit Telegram's 4096 char limit."""
